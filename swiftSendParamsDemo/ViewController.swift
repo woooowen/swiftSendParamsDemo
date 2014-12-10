@@ -17,7 +17,8 @@ protocol ParamsProtocol{
 class ViewController: UIViewController {
 
     var tmpString: String = String()
-    
+    //NSUserDefaults传值
+    var base: baseClass = baseClass()
     //值传递2
     var paramsProtocolDelegate: ParamsProtocol?
     
@@ -53,5 +54,15 @@ class ViewController: UIViewController {
         //点击跳转
         self.performSegueWithIdentifier("btn2", sender: self)
     }
+    @IBAction func btn3Click(sender: AnyObject) {
+        self.base.cacheSetString("sign", value: "通过NSUserDefaults传递方式3")
+        self.performSegueWithIdentifier("btn3", sender: self)        
+    }
+    
+    //返回按钮
+    @IBAction func close(segue: UIStoryboardSegue){
+    }
+    
+
 }
 

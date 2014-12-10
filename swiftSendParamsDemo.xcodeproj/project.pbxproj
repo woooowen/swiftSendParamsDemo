@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5907611A3840BC0026237D /* baseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907601A3840BC0026237D /* baseClass.swift */; };
+		1A5907631A3841C50026237D /* btn3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907621A3841C50026237D /* btn3.swift */; };
 		1ACE6B2E1A36F49B00FBBB8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE6B2D1A36F49B00FBBB8C /* AppDelegate.swift */; };
 		1ACE6B301A36F49B00FBBB8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE6B2F1A36F49B00FBBB8C /* ViewController.swift */; };
 		1ACE6B331A36F49B00FBBB8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE6B311A36F49B00FBBB8C /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A5907601A3840BC0026237D /* baseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = baseClass.swift; sourceTree = "<group>"; };
+		1A5907621A3841C50026237D /* btn3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = btn3.swift; sourceTree = "<group>"; };
 		1ACE6B281A36F49B00FBBB8C /* swiftSendParamsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftSendParamsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACE6B2C1A36F49B00FBBB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACE6B2D1A36F49B00FBBB8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				1ACE6B2B1A36F49B00FBBB8C /* Supporting Files */,
 				1ACE6B4D1A36F67F00FBBB8C /* btn1.swift */,
 				1ACE6B4F1A36F68700FBBB8C /* btn2.swift */,
+				1A5907601A3840BC0026237D /* baseClass.swift */,
+				1A5907621A3841C50026237D /* btn3.swift */,
 			);
 			path = swiftSendParamsDemo;
 			sourceTree = "<group>";
@@ -218,9 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5907611A3840BC0026237D /* baseClass.swift in Sources */,
 				1ACE6B301A36F49B00FBBB8C /* ViewController.swift in Sources */,
 				1ACE6B4E1A36F67F00FBBB8C /* btn1.swift in Sources */,
 				1ACE6B2E1A36F49B00FBBB8C /* AppDelegate.swift in Sources */,
+				1A5907631A3841C50026237D /* btn3.swift in Sources */,
 				1ACE6B501A36F68700FBBB8C /* btn2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +421,7 @@
 				1ACE6B491A36F49B00FBBB8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ACE6B4A1A36F49B00FBBB8C /* Build configuration list for PBXNativeTarget "swiftSendParamsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				1ACE6B4C1A36F49B00FBBB8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

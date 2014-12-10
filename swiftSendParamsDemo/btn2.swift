@@ -24,4 +24,5 @@ class btn2: UIViewController,ParamsProtocol {
     func returnParams(tmpStr: String) {
         self.text2.text = tmpStr
     }
+    
 }

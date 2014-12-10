@@ -1,21 +1,19 @@
 import UIKit
 
-class btn1: UIViewController {
-    
-    @IBOutlet weak var text1: UITextField!
-    
-    //这边需要定义一个变量
-    var tmpString: String = String()
+class btn3: UIViewController{
+    @IBOutlet weak var text3: UITextField!
+    var base: baseClass = baseClass()
+    var sign:String = String()
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        //输出传递过来得值
-        text1.text = self.tmpString
+        self.sign = base.cacheGetString("sign")
+        text3.text = self.sign
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 }
